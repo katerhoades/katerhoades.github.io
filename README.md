@@ -5,7 +5,7 @@
 
   </head>
   <body>
-    <h1>Hello World -- This is my website!</h1>
+    <h1>Hello Class </h1>
     <p>I'm making this to host my portfolio for free.</p>
   </body>
 </html>
