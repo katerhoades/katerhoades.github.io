@@ -9,6 +9,6 @@ https://github.com/katerhoades/
 My Github Pages repo can be found at:  
 https://github.com/katerhoades/katerhoades.github.io/
 
-And, soon, you can see my customized homepage at:
+And you can see my customized homepage at:
 
 http://katerhoades.github.io/
