@@ -1,7 +1,7 @@
 katerhoades.github.io
 ====================
 
-## Hello world!
+## Hello class!
 
 My Github user page is at: 
 https://github.com/katerhoades/
