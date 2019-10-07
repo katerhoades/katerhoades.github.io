@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+body {
+  margin: 30px auto;
+  max-width: 1000px;
+  font-family:'Work Sans', sans-serif;
+  line-height: 1.5;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* Your Name- spacing and font size */
+
+h1 {
+  padding: 20px 0px 10px 0px;
+}
+
+/* This changes color and removes default underline in links  */
+
+a {
+color: #7F006E;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00DD;
+    }
+
+
+/* Style the header div */
+.header {
+        list-style-type:none;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+.header ul {
+      	list-style-type:none;
+        display: flex;
+        justify-content: center;
+    }
+
+.header ul li {
+    	list-style-type:none;
+    	display: list-item;
+    	line-height: 10px;
+      padding: 10px 30px 30px 0px;
+    }
+
+
+/* Centers images that aren't in the portfolio grid */
+
+img {
+  display: block;
+  margin: 0px auto;
+}
+
+/* Gallery- much of this is sourced from w3schools */
+
+.container {
+  width: auto;
+  align-content: center;
+  padding: 10px 50px;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Makes portfolio viewable on mobile devices */
+.responsive {
+    padding: 0 3px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* For General Portfolio page */
+
+/* When you put a period in front of a CSS declaration, it indicates you are
+creating a new class. We can apply this to div elements to create different
+portfolio entries */
+
+.portfolio-item {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #f7f7f7;
+}
