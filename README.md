@@ -1,5 +1,5 @@
 
-# Carrie Hott
+# Kate Rhoades
 
 ### I am an artist. This is my portfolio site.
 
