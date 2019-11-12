@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script>
+      var bg, spark;
+
+  function preload()
+  {
+    // load images
+    bg = loadImage("Sperkler/RiverNight.jpg");
+    spark = loadImage("Sparkler/SparkVid.gif");
+  }
+
+  function setup()
+  {
+    // set canvas size
+    createCanvas(windowWidth,windowHeight);
+
+    // hide mouse cursor
+    noCursor();
+  }
+
+  function draw()
+  {
+    background(255);
+
+    // display background image
+    image(bg, 0, 0);
+
+    // display ufo
+    image(spark, mouseX, mouseY);
+
+  }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
