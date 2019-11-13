@@ -1,11 +1,11 @@
-var kitty;
+var bug;
 function preload() {
-  kitty = loadImage("SparkVid.gif");
+  bug = loadImage("bug.gif");
 }
 function setup() {
   createCanvas(400, 400);
 }
 function draw() {
-
-  image(kitty, 10, 10);
+  background(255);
+  image(bug, mouseX, mouseY);
 }
