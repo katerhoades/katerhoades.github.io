@@ -1,9 +1,13 @@
+let img; // Declare variable 'img'.
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(720, 400);
+  img = loadImage('SparkVid.gif'); // Load the image
 }
 
 function draw() {
-  background(220);
-  rect (30,30,20,10);
-
+  // Displays the image at its actual size at point (0,0)
+  image(img, 0, 0);
+  // Displays the image at point (0, height/2) at half size
+  image(img, 0, height / 2, img.width / 2, img.height / 2);
 }
