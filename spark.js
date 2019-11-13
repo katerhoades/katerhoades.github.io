@@ -1,6 +1,6 @@
 var bug;
 function preload() {
-  bug = loadImage("bug.gif");
+  bug = loadImage("spider.png");
 }
 function setup() {
   createCanvas(400, 400);
