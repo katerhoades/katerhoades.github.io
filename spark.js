@@ -2,13 +2,13 @@
 let snowflakes = []; // array to hold snowflake objects
 
 function setup() {
-  createCanvas(windowHeight, windowWidth);
+  createCanvas(windowWidth, windowHeight);
   noStroke();
 }
 
 function draw() {
 
-  let t = frameCount / 60; // update time
+  let t = frameCount / 30; // update time
 
   // create a random number of snowflakes each frame
   for (let i = 0; i < random(5); i++) {
