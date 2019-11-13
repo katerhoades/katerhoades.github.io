@@ -1,4 +1,5 @@
-var bg, spark;
+var bg;
+var spark;
 
 function preload()
 {
