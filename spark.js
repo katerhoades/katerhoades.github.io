@@ -8,5 +8,7 @@ function setup() {
 function draw() {
 
 noCursor();
+noStroke();
+background();
   image(kitty, mouseX, mouseY);
 }
