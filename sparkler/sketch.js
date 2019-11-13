@@ -4,14 +4,14 @@ var spark;
 function preload()
 {
 // load images
-bg = loadImage("sparkler\RiverNight.jpg");
-spark = loadImage("sparkler\SparkVid.gif");
+bg = loadImage("RiverNight.jpg");
+spark = loadImage("SparkVid.gif");
 }
 
 function setup()
 {
 // set canvas size
-createCanvas(400,400);
+createCanvas(windowWidth,windowHeight);
 
 // hide mouse cursor
 noCursor();
