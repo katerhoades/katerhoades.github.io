@@ -7,6 +7,6 @@ function setup() {
 }
 function draw() {
 
-
+noCursor();
   image(kitty, mouseX, mouseY);
 }
