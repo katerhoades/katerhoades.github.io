@@ -9,7 +9,7 @@ let xdirection = 1; // Left or Right
 let ydirection = 1; // Top to Bottom
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth-20, windowHeight-20);
   noStroke();
   frameRate(30);
   ellipseMode(RADIUS);
@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  background(102);
+
 
   // Update the position of the shape
   xpos = xpos + xspeed * xdirection;
