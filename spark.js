@@ -2,7 +2,7 @@ let img; // Declare variable 'img'.
 
 function setup() {
   createCanvas(720, 400);
-  img = loadImage('RiverNight.jpg'); // Load the image
+  img = loadImage('kitten.jpg'); // Load the image
 }
 
 function draw() {
