@@ -8,6 +8,6 @@ function setup() {
 function draw() {
     clear();
     image(kitty, mouseX, mouseY,
-        200+sin(frameCount*0.1)*100,
-        200+cos(frameCount*0.1)*100);
+        300+sin(frameCount*0.05)*100,
+        300+cos(frameCount*0.05)*100);
 }
