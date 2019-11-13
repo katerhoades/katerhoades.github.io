@@ -2,7 +2,7 @@ let img; // Declare variable 'img'.
 
 function setup() {
   createCanvas(windowHeight, windowWidth);
-  img = loadImage('kitten.jpg'); // Load the image
+  img = loadImage('SparkVid.gif'); // Load the image
 }
 
 function draw() {
