@@ -3,7 +3,7 @@ function preload() {
   kitty = loadImage("spider.png");
 }
 function setup() {
-  createCanvas(windowWidth-10, windowHeight-10);
+  createCanvas(500, 500);
 }
 function draw() {
 
