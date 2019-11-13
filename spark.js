@@ -36,7 +36,7 @@ function snowflake() {
 
   this.update = function(time) {
     // x position follows a circle
-    let w = 0.6; // angular speed
+    let w = 0.2; // angular speed
     let angle = w * time + this.initialangle;
     this.posX = width / 2 + this.radius * sin(angle);
 
