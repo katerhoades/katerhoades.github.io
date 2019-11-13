@@ -3,12 +3,13 @@ function preload() {
   kitty = loadImage("spider.png");
 }
 function setup() {
-  createCanvas(windowHeight-20, windowWidth-20);
+  createCanvas(windowWidth-20, windowHeight-20);
 }
 function draw() {
-    background(255);
-    imageMode(CENTER);
-    image(kitty, mouseX, mouseY,
-        200+sin(frameCount*0.1)*100,
-        200+cos(frameCount*0.1)*100);
+  background(50, 50, 240);
+  imageMode(CENTER);
+  image(kitty, 200+sin(frameCount*0.01)*100,
+    200+cos(frameCount*0.05)*100);
+  image(kitty, 200+cos(frameCount*0.01)*100,
+    200+sin(frameCount*0.06)*100);
 }
