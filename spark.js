@@ -1,13 +1,11 @@
-var spider;
+var kitty;
 function preload() {
-  spider = loadImage("spider.png");
+  kitty = loadImage("spider.png");
 }
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 400);
 }
 function draw() {
-
-  rect (10,10,10,10);
-  image(spider, mouseX, mouseY);
-
+  background(255);
+  image(kitty, mouseX, mouseY);
 }
