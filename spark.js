@@ -7,5 +7,5 @@ function setup() {
 }
 function draw() {
 
-  image(kitty, mouseX, mouseY);
+  image(kitty, 10, 10);
 }
