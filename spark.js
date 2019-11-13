@@ -8,4 +8,5 @@ function setup() {
 function draw() {
   background(255);
   image(bug, mouseX, mouseY);
+  rect (10,10,10,10);
 }
